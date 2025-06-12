@@ -1,0 +1,20 @@
+Introduction :
+
+Le dataset étudié donne, pour 768 femmes Pima âgées de 21 ans et plus, les valeurs de plusieurs variables médicales et indique si, 5 ans après les tests, les sujets initialement sains ont développé le diabète. 
+
+Ces variables sont :
+-	Pregnancies : le nombre de grossesses
+-	Glucose : le taux de glucose après un test de tolérance au glucose
+-	BloodPressure : la tension artérielle diastolique
+-	SkinThickness : l’épaisseur de la peau au niveau du pli cutané tricipital
+-	Insulin : la concentration d’insuline sérique 2h après un test de glycémie orale
+-	BMI : l’indice de masse corporelle
+-	DiabetesPedigreeFunction : un indicateur du risque héréditaire de diabète
+-	Age : l’âge
+-	Outcome : indique si le sujet sain a développé le diabète 5 ans plus tard
+
+Il est frappant de voir que 5 ans plus tard, 268 des 768 (soit 34%) ont développé le diabète. Ce taux est très élevé, ce qu’on va tenter d’expliquer avec quelques considérations historiques avant de passer à la partie purement analytique.
+Les Pimas d’Arizona, un peuple Nord-Amérindien, descendent des Hohokam, une tribu qui s’est installée dans la vallée de la rivière Gila vers 300 avant Jésus-Christ. Pendant des siècles, les Pimas ont développé une agriculture irriguée adaptée à leurs terres désertiques et ont cultivé le coton, le maïs, les haricots et les courges. Mais en 1924, les colons blancs ont commencé à détourner l’eau de la rivière Gila vers le nord dans le cadre du Projet d’Irrigation San Carlos, ce qui a rendu l’agriculture des Pimas impossible. Après une période de sécheresse et de famine, les Pimas se sont tournés vers la nourriture industrielle et ont adopté un mode de vie très sédentaire.
+
+En conséquence, le diabète et l’obésité, jusque là inconnus des Pimas, se développent fortement. Pour le diabète, on passe de 1 cas vers 1900 à environ 50% de la population des plus de 35 ans en 1965, le taux le plus élevé qui avait jamais été enregistré. 
+Ces taux très élevés ont conduit certains à émettre l’hypothèse de facteurs génétiques aggravants. En 1962, le généticien James V. Neel a formulé l’hypothèse dite du gène économe (thrifty gene hypothesis), selon laquelle les personnes dotées des gènes « économes » sont capables de stocker les calories efficacement. Ce génotype, très utile en cas de famine, deviendrait un inconvénient majeur dans un contexte moderne de nourriture riche et calorique. La théorie de Neel a été source de nombreuses critiques, et il faut bien reconnaître que le mode de vie, en particulier l’alimentation et l’activité physique, semble jouer un rôle prépondérant dans l’apparition du diabète. 
